@@ -67,5 +67,5 @@ console.log(`The area of the triangle is ${area}`);
 let sideA = prompt("Enter side a of the triangle:");
 let sideB = prompt("Enter side b of the triangle:");
 let sideC = prompt("Enter side c of the triangle:");
-let perimeter = parseFloat(sideA) + parseFloat(sideB) + parseFloat(sideC);
+let perimeter = Number(sideA) + Number(sideB) + Number(sideC);
 console.log(`The perimeter of the triangle is ${perimeter}`);
